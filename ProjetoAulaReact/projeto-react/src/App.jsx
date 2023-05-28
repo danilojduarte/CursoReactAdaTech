@@ -1,8 +1,14 @@
+import MeuComponente from "./components/MeuComponente"
+
 
 function App() {
 
   return (
-    <h1>Olá  Mundo, React!</h1>
+    <div>
+      <h1>Olá  Mundo, React!</h1>
+      <MeuComponente />
+      <NewButton />
+    </div>
   )
 }
 
