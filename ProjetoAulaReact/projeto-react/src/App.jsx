@@ -1,25 +1,11 @@
-import MeuComponente from "./components/MeuComponente"
 
 
 function App() {
 
   return (
     <div>
-      <h1>Olá  Mundo, React!</h1>
-      <MeuComponente />
-      <NewButton conteudo='Click aqui'/>
-
-      <NewButton conteudo='Novamente aqui'/>
-
-      <NewButton conteudo='Aqui também'/>
+      <h1>Banco de Dados</h1>
     </div>
-  )
-}
-
-
-function NewButton(props) {
-  return (
-    <button>{props.conteudo}</button>
   )
 }
 
