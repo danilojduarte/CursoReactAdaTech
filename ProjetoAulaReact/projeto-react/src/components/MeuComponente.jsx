@@ -1,8 +1,3 @@
-function NewButton() {
-    return (
-      <button>Click her</button>
-    )
-  }
   
   export default function MeuComponente() {
     return (
