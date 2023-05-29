@@ -19,9 +19,9 @@ function App() {
 export default App
 
 
-function NewButton() {
+function NewButton(props) {
   return (
-    <button>Click her</button>
+    <button>{props.conteudo}</button>
   )
 }
 
