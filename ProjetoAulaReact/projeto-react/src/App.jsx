@@ -16,13 +16,14 @@ function App() {
   )
 }
 
-export default App
-
 
 function NewButton(props) {
   return (
     <button>{props.conteudo}</button>
   )
 }
+
+
+export default App
 
 
